@@ -1,4 +1,4 @@
-/* ======== RESET E BASE ======== */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ======== NAVBAR ======== */
+
 .navbar {
   background-color: #000 !important;
   border-bottom: 3px solid #ffcf00;
@@ -35,7 +35,7 @@ body {
   box-shadow: none;
 }
 
-/* ======== LINKS E BOTÕES ======== */
+
 a {
   text-decoration: none;
 }
@@ -56,7 +56,7 @@ a {
   box-shadow: 0 6px 0 #000, 0 0 10px #ffcf00;
 }
 
-/* ======== SIDEBAR ======== */
+
 aside {
   background: linear-gradient(145deg, #141414, #1d1d1d);
   border-right: 2px solid #ffcf00;
@@ -75,7 +75,7 @@ aside .nav-link:hover {
   transform: scale(1.05);
 }
 
-/* ======== SEÇÃO PRINCIPAL ======== */
+
 main {
   background: transparent;
 }
@@ -94,7 +94,7 @@ section:hover {
   box-shadow: 0 0 30px rgba(255, 207, 0, 0.25);
 }
 
-/* ======== TÍTULOS ======== */
+
 h1, h2, h3 {
   color: #ffcf00;
   text-shadow: 0 0 10px #ffcf00;
@@ -104,7 +104,7 @@ h1, h2, h3 {
   color: #ddd;
 }
 
-/* ======== CARDS ======== */
+
 .card {
   background-color: #111 !important;
   border: 2px solid #ffcf00;
@@ -131,7 +131,7 @@ h1, h2, h3 {
   color: #ccc;
 }
 
-/* ======== FORMULÁRIO ======== */
+
 form label {
   color: #ffcf00;
   font-weight: 600;
@@ -154,7 +154,7 @@ input:focus {
   border-color: #ffe700;
 }
 
-/* ======== FOOTER ======== */
+
 footer {
   background-color: #000;
   color: #ffcf00;
@@ -167,7 +167,7 @@ footer p {
   font-weight: 500;
 }
 
-/* ======== EFEITOS DECORATIVOS ======== */
+
 .container-fluid::before {
   content: "";
   position: fixed;
@@ -179,7 +179,7 @@ footer p {
   z-index: -1;
 }
 
-/* ======== RESPONSIVIDADE ======== */
+
 @media (max-width: 768px) {
   aside {
     border-right: none;
