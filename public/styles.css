@@ -1,0 +1,194 @@
+/* ======== RESET E BASE ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0b0b0b 0%, #000000 100%);
+  color: #f5f5f5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ======== NAVBAR ======== */
+.navbar {
+  background-color: #000 !important;
+  border-bottom: 3px solid #ffcf00;
+  box-shadow: 0 4px 10px rgba(255, 207, 0, 0.2);
+}
+
+.logo {
+  color: #ffcf00 !important;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px #ffcf00;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* ======== LINKS E BOTÕES ======== */
+a {
+  text-decoration: none;
+}
+
+.btn-batman {
+  background-color: #ffcf00;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 2px solid #000;
+  box-shadow: 0 4px 0 #000;
+  transition: all 0.2s ease;
+}
+
+.btn-batman:hover {
+  background-color: #ffe700;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 0 #000, 0 0 10px #ffcf00;
+}
+
+/* ======== SIDEBAR ======== */
+aside {
+  background: linear-gradient(145deg, #141414, #1d1d1d);
+  border-right: 2px solid #ffcf00;
+  box-shadow: 4px 0 10px rgba(255, 207, 0, 0.1);
+}
+
+aside .nav-link {
+  color: #fff;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+aside .nav-link:hover {
+  background-color: #ffcf00;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* ======== SEÇÃO PRINCIPAL ======== */
+main {
+  background: transparent;
+}
+
+section {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #ffcf00;
+  box-shadow: 0 0 20px rgba(255, 207, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 0 30px rgba(255, 207, 0, 0.25);
+}
+
+/* ======== TÍTULOS ======== */
+h1, h2, h3 {
+  color: #ffcf00;
+  text-shadow: 0 0 10px #ffcf00;
+}
+
+.lead {
+  color: #ddd;
+}
+
+/* ======== CARDS ======== */
+.card {
+  background-color: #111 !important;
+  border: 2px solid #ffcf00;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 207, 0, 0.4);
+}
+
+.card img {
+  border-bottom: 2px solid #ffcf00;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #ffcf00;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+/* ======== FORMULÁRIO ======== */
+form label {
+  color: #ffcf00;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"] {
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #ffcf00;
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #ffcf00;
+  border-color: #ffe700;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: #000;
+  color: #ffcf00;
+  border-top: 3px solid #ffcf00;
+  box-shadow: 0 -4px 10px rgba(255, 207, 0, 0.2);
+}
+
+footer p {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* ======== EFEITOS DECORATIVOS ======== */
+.container-fluid::before {
+  content: "";
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at bottom right, rgba(255, 207, 0, 0.05), transparent 70%);
+  z-index: -1;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 768px) {
+  aside {
+    border-right: none;
+    border-bottom: 2px solid #ffcf00;
+  }
+  section {
+    padding: 1.5rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+}
