@@ -15,8 +15,8 @@ Leia o enunciado completo no Canvas.
 
 - Nome: Arthur Eduardo de Oliveira Costa 
 - Matricula:  902839
-- Proposta de projeto escolhida: 
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida: Lego batman
+- Breve descrição sobre seu projeto: O site fala sobre Lego batman
 
 ## Print da Home-Page
 
