@@ -13,9 +13,9 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Arthur Eduardo de Oliveira Costa 
+- Matricula:  902839
+- Proposta de projeto escolhida: 
 - Breve descrição sobre seu projeto:
 
 ## Print da Home-Page
